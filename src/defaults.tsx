@@ -4,7 +4,7 @@ import * as Type from './types'
 export const Loader = (): React.ReactElement => <div>Loading meeting...</div>
 
 export const Props: Type.Props = {
-    domain: 'meet.jit.si',
+    domain: 'localhost:8443',
     roomName: (Math.random() + 0.48151642).toString(36).substring(2),
 }
 
